@@ -50,7 +50,7 @@ NADD e Pronto Atendimento constam da análise documental, mas não entram como p
 
 ## Arquitetura e busca
 
-Usar Next.js com App Router, TypeScript, Tailwind CSS e componentes shadcn/ui apenas nos controles que precisarem deles. O conteúdo fica em um catálogo local tipado, mantido manualmente. Não há banco de dados, autenticação, API própria, IA nem RAG no protótipo.
+Usar Next.js com App Router, TypeScript e Tailwind CSS. Os controles de busca usam elementos HTML nativos acessíveis; a interface não precisa adicionar componentes shadcn/ui para um campo e um botão. O conteúdo fica em um catálogo local tipado, mantido manualmente. Não há banco de dados, autenticação, API própria, IA nem RAG no protótipo.
 
 Rotas: `/` para início; `/buscar?q=...` para resultados; `/categorias/[slug]` para uma lista por necessidade; `/servicos/[slug]` para a orientação. As rotas de serviço e categoria são geradas a partir do catálogo. Cada serviço contém título, resumo, categoria, palavras-chave e sinônimos, passos documentados, dados úteis opcionais, estado, lacunas e fontes.
 

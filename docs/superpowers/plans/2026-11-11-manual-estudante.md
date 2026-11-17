@@ -6,7 +6,7 @@
 
 **Architecture:** Next.js App Router renderiza início, resultados, categorias e serviços a partir de um catálogo TypeScript local. Uma função pura normaliza e ranqueia termos; o conteúdo mantém referências e lacunas explícitas. Sem backend ou IA.
 
-**Tech Stack:** Next.js, React, TypeScript, Tailwind CSS, shadcn/ui para controles, `node:test` para busca e integridade do catálogo.
+**Tech Stack:** Next.js, React, TypeScript, Tailwind CSS, controles HTML nativos, `node:test` para busca e integridade do catálogo.
 
 ---
 
@@ -14,7 +14,7 @@
 
 | Arquivo | Responsabilidade |
 | --- | --- |
-| `package.json`, `tsconfig.json`, `postcss.config.mjs`, `eslint.config.mjs`, `next-env.d.ts`, `components.json` | Configuração mínima do Next, Tailwind, lint e shadcn/ui. |
+| `package.json`, `tsconfig.json`, `postcss.config.mjs`, `eslint.config.mjs`, `next-env.d.ts` | Configuração mínima do Next, Tailwind e lint. |
 | `src/app/globals.css`, `src/app/layout.tsx` | Tokens visuais, fonte, metadados e cabeçalho comum. |
 | `src/content/services.ts` | Catálogo curado, categorias, fontes e estados. |
 | `src/lib/search.ts`, `src/lib/search.test.mjs` | Normalização, busca e seus casos importantes. |
@@ -32,7 +32,6 @@
 - [ ] Criar configuração TypeScript estrita com alias `@/*` → `src/*`; PostCSS com `@tailwindcss/postcss`; ESLint com `eslint-config-next` flat config; `next-env.d.ts` padrão do Next.
 - [ ] Criar layout com `lang="pt-BR"`, `next/font/google` Poppins e metadados “Manual de Sobrevivência do Estudante”; importar `globals.css`.
 - [ ] Criar `globals.css` com `@import "tailwindcss"`, azul `#031D73`, tinta `#292B2C`, fundo branco, foco visível e tipografia responsiva.
-- [ ] Executar `npx shadcn@latest init` e `npx shadcn@latest add button input`, escolhendo a configuração Next/Tailwind já existente. Usar os controles gerados sem adicionar Card.
 - [ ] Executar `npm run build`; resultado esperado: build concluído sem erro de configuração. Fazer commit da base.
 
 Configuração mínima de PostCSS:
@@ -127,7 +126,7 @@ test('sinônimos levam ao serviço certo', () => {
 **Arquivos:** criar `src/components/search-form.tsx`, `src/components/service-list.tsx`, `src/components/service-detail.tsx`, `src/app/page.tsx`, `src/app/buscar/page.tsx`, `src/app/categorias/[slug]/page.tsx`, `src/app/servicos/[slug]/page.tsx`; modificar `src/app/globals.css` e `src/app/layout.tsx`.
 
 - [ ] Criar cabeçalho com identidade CEUMA, campus e navegação mínima. Aplicar a direção visual da especificação: hero branco, azul, Poppins, categorias em linhas, sem cards.
-- [ ] Criar formulário GET acessível para `/buscar` com `name="q"`, rótulo visível/associado, botão shadcn e foco claro. O formulário pode funcionar sem JavaScript.
+- [ ] Criar formulário GET acessível para `/buscar` com `name="q"`, rótulo visível/associado, botão nativo e foco claro. O formulário pode funcionar sem JavaScript.
 - [ ] Criar lista de serviços com links para `/servicos/[slug]`, estado em texto e resumo da primeira ação. Usar a mesma lista em busca e categorias.
 - [ ] Criar detalhe com fontes e páginas, primeiro passo, campos opcionais somente quando preenchidos, `caveat` para parcial/divergente e serviços relacionados.
 - [ ] Criar rotas de resultado/categoria/serviço com `notFound()` para slug ausente e `generateStaticParams()` para slugs conhecidos. Busca vazia mostra instrução de pesquisa; sem resultado mostra sugestões e categorias.
