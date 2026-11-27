@@ -26,15 +26,15 @@ O resultado esperado de cada busca é uma página de serviço que mostre **o que
 
 Os registros serão agrupados por necessidade, com nomes que o estudante usaria:
 
-| Categoria | Páginas de serviço |
-| --- | --- |
-| Documentos e solicitações | Declaração de matrícula; histórico escolar; ementas; segunda via da carteira estudantil. |
-| Matrícula e acesso | Matrícula/ingresso; crachá; cadastro facial e falhas na catraca; suporte a PROUNI/FIES. |
-| Aulas e avaliações | Entrega/retirada de provas; retificação de notas ou faltas; acesso ao AVA; regime domiciliar. |
-| Biblioteca e estudo | Empréstimo e renovação de livros; reserva de sala de estudo; nada consta. |
-| Finanças e bolsas | Declarações financeiras; regularização financeira pelo Portal do Aluno. |
-| Estágio e conclusão | Estágio; TCC; atividades complementares; Kit Formando. |
-| Ajuda e imprevistos | Recuperar objeto perdido. |
+| Categoria                 | Páginas de serviço                                                                            |
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| Documentos e solicitações | Declaração de matrícula; histórico escolar; ementas; segunda via da carteira estudantil.      |
+| Matrícula e acesso        | Matrícula/ingresso; crachá; cadastro facial e falhas na catraca; suporte a PROUNI/FIES.       |
+| Aulas e avaliações        | Entrega/retirada de provas; retificação de notas ou faltas; acesso ao AVA; regime domiciliar. |
+| Biblioteca e estudo       | Empréstimo e renovação de livros; reserva de sala de estudo; nada consta.                     |
+| Finanças e bolsas         | Declarações financeiras; regularização financeira pelo Portal do Aluno.                       |
+| Estágio e conclusão       | Estágio; TCC; atividades complementares; Kit Formando.                                        |
+| Ajuda e imprevistos       | Recuperar objeto perdido.                                                                     |
 
 As páginas podem ter uma única ação quando é tudo que o documento informa. A página de PROUNI/FIES separa suporte inicial de matrícula, aditamento FIES pelo Portal e dúvidas financeiras, com as fontes e a incerteza de encaminhamento. A página de provas informa a CAA como local descrito para entrega e retirada, mas explicita a divergência sobre provas antigas antes de orientar deslocamento.
 

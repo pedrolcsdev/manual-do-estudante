@@ -20,11 +20,31 @@ export const campusBoundary: [number, number][] = [
 
 // shortcut: illustrative positions for the prototype, replace after an on-campus survey.
 export const campusPoints = [
-  { slug: "central-matricula", orientation: "matricula-ingresso", position: [-2.50295, -44.28644] },
-  { slug: "apoio-ao-aluno", orientation: "cadastro-facial", position: [-2.50319, -44.28554] },
-  { slug: "biblioteca", orientation: "livros-biblioteca", position: [-2.50386, -44.28594] },
-  { slug: "achados-e-perdidos", orientation: "objetos-perdidos", position: [-2.50342, -44.28462] },
-  { slug: "central-atendimento-ao-aluno", orientation: "provas", position: [-2.50358, -44.28662] },
+  {
+    slug: "central-matricula",
+    orientation: "matricula-ingresso",
+    position: [-2.50295, -44.28644],
+  },
+  {
+    slug: "apoio-ao-aluno",
+    orientation: "cadastro-facial",
+    position: [-2.50319, -44.28554],
+  },
+  {
+    slug: "biblioteca",
+    orientation: "livros-biblioteca",
+    position: [-2.50386, -44.28594],
+  },
+  {
+    slug: "achados-e-perdidos",
+    orientation: "objetos-perdidos",
+    position: [-2.50342, -44.28462],
+  },
+  {
+    slug: "central-atendimento-ao-aluno",
+    orientation: "provas",
+    position: [-2.50358, -44.28662],
+  },
 ] satisfies { slug: string; orientation: string; position: [number, number] }[];
 
 export type CampusSector = {
@@ -38,10 +58,43 @@ export type CampusSector = {
 
 // Posições de exemplo dentro do campus para setores com localização a confirmar.
 export const campusUnlocatedSectors: CampusSector[] = [
-  { slug: "nadd", name: "NADD", location: "1º andar. Prédio a confirmar.", position: [-2.50253, -44.28693] },
-  { slug: "setor-de-estagio", name: "Setor de Estágio", location: "1º andar. Prédio a confirmar.", orientation: "estagio", position: [-2.50252, -44.28546] },
-  { slug: "suporte-de-ti", name: "Suporte de TI (Help Desk)", location: "1º andar. Prédio a confirmar.", orientation: "acesso-ava", position: [-2.50251, -44.28436] },
-  { slug: "coordenacoes-de-curso", name: "Coordenações de Curso", location: "1º andar. O corredor varia por curso. Prédio a confirmar.", orientation: "tcc", position: [-2.50305, -44.28394] },
-  { slug: "secretaria-academica", name: "Secretaria Acadêmica de Graduação", location: "Subsolo. Prédio a confirmar.", position: [-2.50413, -44.28684] },
-  { slug: "pronto-atendimento", name: "Pronto Atendimento", location: "Localização a confirmar.", position: [-2.50455, -44.28549] },
+  {
+    slug: "nadd",
+    name: "NADD",
+    location: "1º andar. Prédio a confirmar.",
+    position: [-2.50253, -44.28693],
+  },
+  {
+    slug: "setor-de-estagio",
+    name: "Setor de Estágio",
+    location: "1º andar. Prédio a confirmar.",
+    orientation: "estagio",
+    position: [-2.50252, -44.28546],
+  },
+  {
+    slug: "suporte-de-ti",
+    name: "Suporte de TI (Help Desk)",
+    location: "1º andar. Prédio a confirmar.",
+    orientation: "acesso-ava",
+    position: [-2.50251, -44.28436],
+  },
+  {
+    slug: "coordenacoes-de-curso",
+    name: "Coordenações de Curso",
+    location: "1º andar. O corredor varia por curso. Prédio a confirmar.",
+    orientation: "tcc",
+    position: [-2.50305, -44.28394],
+  },
+  {
+    slug: "secretaria-academica",
+    name: "Secretaria Acadêmica de Graduação",
+    location: "Subsolo. Prédio a confirmar.",
+    position: [-2.50413, -44.28684],
+  },
+  {
+    slug: "pronto-atendimento",
+    name: "Pronto Atendimento",
+    location: "Localização a confirmar.",
+    position: [-2.50455, -44.28549],
+  },
 ];

@@ -12,16 +12,16 @@
 
 ## Arquivos e responsabilidades
 
-| Arquivo | Responsabilidade |
-| --- | --- |
-| `package.json`, `tsconfig.json`, `postcss.config.mjs`, `eslint.config.mjs`, `next-env.d.ts` | Configuração mínima do Next, Tailwind e lint. |
-| `src/app/globals.css`, `src/app/layout.tsx` | Tokens visuais, fonte, metadados e cabeçalho comum. |
-| `src/content/services.ts` | Catálogo curado, categorias, fontes e estados. |
-| `src/lib/search.ts`, `src/lib/search.test.mjs` | Normalização, busca e seus casos importantes. |
-| `src/lib/catalog.test.mjs` | Integridade de slugs, fontes, estados e categorias. |
-| `src/components/service-list.tsx`, `src/components/search-form.tsx`, `src/components/service-detail.tsx` | UI reutilizada só pelas rotas que precisam dela. |
-| `src/app/page.tsx`, `src/app/buscar/page.tsx`, `src/app/categorias/[slug]/page.tsx`, `src/app/servicos/[slug]/page.tsx` | Páginas e URLs navegáveis. |
-| `README.md` | Como executar e limites do protótipo. |
+| Arquivo                                                                                                                 | Responsabilidade                                    |
+| ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `package.json`, `tsconfig.json`, `postcss.config.mjs`, `eslint.config.mjs`, `next-env.d.ts`                             | Configuração mínima do Next, Tailwind e lint.       |
+| `src/app/globals.css`, `src/app/layout.tsx`                                                                             | Tokens visuais, fonte, metadados e cabeçalho comum. |
+| `src/content/services.ts`                                                                                               | Catálogo curado, categorias, fontes e estados.      |
+| `src/lib/search.ts`, `src/lib/search.test.mjs`                                                                          | Normalização, busca e seus casos importantes.       |
+| `src/lib/catalog.test.mjs`                                                                                              | Integridade de slugs, fontes, estados e categorias. |
+| `src/components/service-list.tsx`, `src/components/search-form.tsx`, `src/components/service-detail.tsx`                | UI reutilizada só pelas rotas que precisam dela.    |
+| `src/app/page.tsx`, `src/app/buscar/page.tsx`, `src/app/categorias/[slug]/page.tsx`, `src/app/servicos/[slug]/page.tsx` | Páginas e URLs navegáveis.                          |
+| `README.md`                                                                                                             | Como executar e limites do protótipo.               |
 
 ## Tarefa 1 — Instalar a base do aplicativo
 
@@ -37,7 +37,7 @@
 Configuração mínima de PostCSS:
 
 ```js
-export default { plugins: { '@tailwindcss/postcss': {} } }
+export default { plugins: { "@tailwindcss/postcss": {} } };
 ```
 
 ## Tarefa 2 — Catálogo com conteúdo documentado
@@ -47,49 +47,49 @@ export default { plugins: { '@tailwindcss/postcss': {} } }
 - [ ] Escrever teste de integridade que falha enquanto o catálogo não existe:
 
 ```js
-import test from 'node:test'
-import assert from 'node:assert/strict'
-import { services, categories } from '../content/services.ts'
+import test from "node:test";
+import assert from "node:assert/strict";
+import { services, categories } from "../content/services.ts";
 
-test('serviços têm identificador, categoria e fonte verificável', () => {
-  assert.equal(new Set(services.map(s => s.slug)).size, services.length)
+test("serviços têm identificador, categoria e fonte verificável", () => {
+  assert.equal(new Set(services.map((s) => s.slug)).size, services.length);
   for (const service of services) {
-    assert.ok(categories.some(c => c.slug === service.category))
-    assert.ok(service.steps.length > 0)
-    assert.ok(service.sources.every(s => s.file && s.page > 0))
-    if (service.status !== 'documentado') assert.ok(service.caveat)
+    assert.ok(categories.some((c) => c.slug === service.category));
+    assert.ok(service.steps.length > 0);
+    assert.ok(service.sources.every((s) => s.file && s.page > 0));
+    if (service.status !== "documentado") assert.ok(service.caveat);
   }
-})
+});
 ```
 
 - [ ] Executar `npm test`; resultado esperado: falha por módulo `services.ts` ausente.
 - [ ] Definir os tipos `Category` e `Service` no próprio arquivo do catálogo. Campos obrigatórios: `slug`, `title`, `category`, `summary`, `keywords`, `steps`, `status`, `sources`. Campos opcionais: `channel`, `sector`, `requirements`, `location`, `hours`, `contact`, `caveat`, `related`.
 - [ ] Preencher as categorias aprovadas e os serviços abaixo, sem acrescentar passo que não conste das páginas indicadas. Cada `step` é uma frase curta; `caveat` descreve exatamente a lacuna ou divergência. Usar a redação detalhada de `docs/analise-documental.md`.
 
-| Serviço (slug) | Primeira ação ou encaminhamento documentado | Fonte |
-| --- | --- | --- |
-| `declaracao-matricula` | Portal do Aluno; menu, prazo e valor específicos não informados. | Coordenação p. 4; CAA p. 1 |
-| `historico-escolar` | Solicitar pelo Portal do Aluno. | CAA p. 1 |
-| `ementas` | Solicitar programa de disciplinas pelo Portal do Aluno. | CAA p. 1 |
-| `segunda-via-carteira` | Solicitar 2ª via pelo Portal do Aluno. | CAA p. 1 |
-| `matricula-ingresso` | Procurar Central de Matrícula para formalizar vínculo. | Central de Matrícula pp. 1–2 |
-| `cracha` | Procurar Central de Matrícula para emissão ou entrega. | Central de Matrícula p. 1 |
-| `cadastro-facial` | Ir ao Apoio ao Aluno com RA; falha posterior da catraca sem solução registrada. | Apoio ao Aluno pp. 1–2; Entrevista Setor 2 pp. 1–4 |
-| `prouni-fies` | Distinguir suporte inicial da Matrícula, aditamento FIES no Portal e dúvidas financeiras; encaminhamento geral divergente. | Central de Matrícula p. 1; Coordenação p. 3; CAA p. 2 |
-| `provas` | CAA para entrega/retirada; setor de provas antigas diverge. | CAA p. 1; Coordenação pp. 1, 4 |
-| `retificacao-notas-faltas` | Abrir requerimento pelo Portal do Aluno. | CAA p. 1 |
-| `acesso-ava` | Suporte de TI ou atendimento da Coordenação conforme modalidade; canal específico ausente. | Coordenação pp. 2–4 |
-| `regime-domiciliar` | Protocolo no Portal com atestado; critérios completos não descritos. | Coordenação p. 3; CAA p. 1 |
-| `livros-biblioteca` | Atendimento da biblioteca com documento e senha; renovação pelo Meu Pérgamo. | Biblioteca pp. 1–3 |
-| `sala-estudo` | Solicitar à biblioteca com uma hora de antecedência e documento; canal de reserva não registrado. | Biblioteca pp. 1–2 |
-| `nada-consta` | Pedir à biblioteca; procedimento e prazo ausentes. | Biblioteca pp. 1, 3 |
-| `declaracao-financeira` | Solicitar pelo Portal do Aluno. | CAA p. 2 |
-| `regularizacao-financeira` | Abrir requerimento pelo Portal do Aluno. | CAA p. 2 |
-| `estagio` | Trâmite com Setor de Estágio; requerimentos também listados no Portal. | Coordenação pp. 3–4; CAA p. 1 |
-| `tcc` | Consultar regras/ficha na Coordenação; entrega de TCC listada no Portal. | Coordenação p. 3; CAA p. 1 |
-| `atividades-complementares` | Coordenação orienta validação; requerimento externo no Portal. | Coordenação p. 3; CAA p. 1 |
-| `kit-formando` | Documentação digital para diploma; requerimento no Portal, lista de documentos ausente. | Coordenação pp. 2–3; CAA p. 1 |
-| `objetos-perdidos` | Ir ao 4º andar do CEUMA III, descrever objeto; se localizado, informar nome, RA, CPF e assinar retirada. | Achados e Perdidos p. 1 |
+| Serviço (slug)              | Primeira ação ou encaminhamento documentado                                                                                | Fonte                                                 |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| `declaracao-matricula`      | Portal do Aluno; menu, prazo e valor específicos não informados.                                                           | Coordenação p. 4; CAA p. 1                            |
+| `historico-escolar`         | Solicitar pelo Portal do Aluno.                                                                                            | CAA p. 1                                              |
+| `ementas`                   | Solicitar programa de disciplinas pelo Portal do Aluno.                                                                    | CAA p. 1                                              |
+| `segunda-via-carteira`      | Solicitar 2ª via pelo Portal do Aluno.                                                                                     | CAA p. 1                                              |
+| `matricula-ingresso`        | Procurar Central de Matrícula para formalizar vínculo.                                                                     | Central de Matrícula pp. 1–2                          |
+| `cracha`                    | Procurar Central de Matrícula para emissão ou entrega.                                                                     | Central de Matrícula p. 1                             |
+| `cadastro-facial`           | Ir ao Apoio ao Aluno com RA; falha posterior da catraca sem solução registrada.                                            | Apoio ao Aluno pp. 1–2; Entrevista Setor 2 pp. 1–4    |
+| `prouni-fies`               | Distinguir suporte inicial da Matrícula, aditamento FIES no Portal e dúvidas financeiras; encaminhamento geral divergente. | Central de Matrícula p. 1; Coordenação p. 3; CAA p. 2 |
+| `provas`                    | CAA para entrega/retirada; setor de provas antigas diverge.                                                                | CAA p. 1; Coordenação pp. 1, 4                        |
+| `retificacao-notas-faltas`  | Abrir requerimento pelo Portal do Aluno.                                                                                   | CAA p. 1                                              |
+| `acesso-ava`                | Suporte de TI ou atendimento da Coordenação conforme modalidade; canal específico ausente.                                 | Coordenação pp. 2–4                                   |
+| `regime-domiciliar`         | Protocolo no Portal com atestado; critérios completos não descritos.                                                       | Coordenação p. 3; CAA p. 1                            |
+| `livros-biblioteca`         | Atendimento da biblioteca com documento e senha; renovação pelo Meu Pérgamo.                                               | Biblioteca pp. 1–3                                    |
+| `sala-estudo`               | Solicitar à biblioteca com uma hora de antecedência e documento; canal de reserva não registrado.                          | Biblioteca pp. 1–2                                    |
+| `nada-consta`               | Pedir à biblioteca; procedimento e prazo ausentes.                                                                         | Biblioteca pp. 1, 3                                   |
+| `declaracao-financeira`     | Solicitar pelo Portal do Aluno.                                                                                            | CAA p. 2                                              |
+| `regularizacao-financeira`  | Abrir requerimento pelo Portal do Aluno.                                                                                   | CAA p. 2                                              |
+| `estagio`                   | Trâmite com Setor de Estágio; requerimentos também listados no Portal.                                                     | Coordenação pp. 3–4; CAA p. 1                         |
+| `tcc`                       | Consultar regras/ficha na Coordenação; entrega de TCC listada no Portal.                                                   | Coordenação p. 3; CAA p. 1                            |
+| `atividades-complementares` | Coordenação orienta validação; requerimento externo no Portal.                                                             | Coordenação p. 3; CAA p. 1                            |
+| `kit-formando`              | Documentação digital para diploma; requerimento no Portal, lista de documentos ausente.                                    | Coordenação pp. 2–3; CAA p. 1                         |
+| `objetos-perdidos`          | Ir ao 4º andar do CEUMA III, descrever objeto; se localizado, informar nome, RA, CPF e assinar retirada.                   | Achados e Perdidos p. 1                               |
 
 - [ ] Executar `npm test`; resultado esperado: integridade aprovada. Fazer commit do catálogo e teste.
 
@@ -100,21 +100,22 @@ test('serviços têm identificador, categoria e fonte verificável', () => {
 - [ ] Escrever teste que falha antes da função existir, cobrindo “comprovante de matrícula” → `declaracao-matricula`, “facial” → `cadastro-facial`, “renovar livro” → `livros-biblioteca`, “perdi objeto” → `objetos-perdidos`, acento/caixa, vazio e termo inexistente.
 
 ```js
-import test from 'node:test'
-import assert from 'node:assert/strict'
-import { services } from '../content/services.ts'
-import { searchServices } from './search.ts'
+import test from "node:test";
+import assert from "node:assert/strict";
+import { services } from "../content/services.ts";
+import { searchServices } from "./search.ts";
 
-test('sinônimos levam ao serviço certo', () => {
+test("sinônimos levam ao serviço certo", () => {
   for (const [query, slug] of [
-    ['comprovante de matrícula', 'declaracao-matricula'],
-    ['facial', 'cadastro-facial'],
-    ['renovar livro', 'livros-biblioteca'],
-    ['perdi objeto', 'objetos-perdidos'],
-  ]) assert.equal(searchServices(services, query)[0]?.slug, slug)
-  assert.deepEqual(searchServices(services, ''), [])
-  assert.deepEqual(searchServices(services, 'xylophonie'), [])
-})
+    ["comprovante de matrícula", "declaracao-matricula"],
+    ["facial", "cadastro-facial"],
+    ["renovar livro", "livros-biblioteca"],
+    ["perdi objeto", "objetos-perdidos"],
+  ])
+    assert.equal(searchServices(services, query)[0]?.slug, slug);
+  assert.deepEqual(searchServices(services, ""), []);
+  assert.deepEqual(searchServices(services, "xylophonie"), []);
+});
 ```
 
 - [ ] Executar `npm test`; resultado esperado: falha por módulo `search.ts` ausente.

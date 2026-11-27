@@ -1,4 +1,8 @@
-import { campusPoints, campusUnlocatedSectors, type CampusSector } from "./campus";
+import {
+  campusPoints,
+  campusUnlocatedSectors,
+  type CampusSector,
+} from "./campus";
 import { services } from "./services";
 
 export const campusDirectory: CampusSector[] = [
@@ -6,5 +10,8 @@ export const campusDirectory: CampusSector[] = [
     const service = services.find(({ slug }) => slug === point.orientation)!;
     return { ...point, name: service.sector!, location: service.location! };
   }),
-  ...campusUnlocatedSectors.map((sector) => ({ ...sector, locationPending: true })),
+  ...campusUnlocatedSectors.map((sector) => ({
+    ...sector,
+    locationPending: true,
+  })),
 ];

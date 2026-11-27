@@ -4,22 +4,22 @@ Leitura realizada em 11/11/2026. O acervo contém dez PDFs e duas entrevistas em
 
 ## O que os documentos permitem resolver
 
-| Necessidade do estudante | Orientação sustentada pelas fontes | Fonte | Estado |
-| --- | --- | --- | --- |
-| Preciso de declaração/comprovante de matrícula | Começar pelo Portal do Aluno, na área de declarações acadêmicas. O relatório da CAA informa cobrança para declarações acadêmicas, sem distinguir tipos. | Coordenação, p. 4; CAA, p. 1 | Parcial: caminho exato no portal, preço do comprovante e prazo não informados. |
-| Preciso retirar, entregar ou receber uma prova | Procurar a Central de Atendimento ao Aluno (CAA). | CAA, p. 1; Coordenação, p. 1 | Parcial: o próprio relatório da Coordenação, p. 4, aponta outro setor para provas antigas. |
-| Quero abrir um requerimento acadêmico ou financeiro | Vários requerimentos são iniciados pelo Portal do Aluno; a CAA registra e encaminha protocolos que precisam tramitar entre setores. | CAA, pp. 1–2 | Parcial: não há telas, prazos ou documentos para cada requerimento. |
-| Quero tratar de matrícula, crachá ou ingresso | A Central de Matrícula formaliza vínculos, atende ingressantes, emite/entrega crachás e presta suporte inicial a PROUNI/FIES. | Central de Matrícula, pp. 1–2; Coordenação, p. 1 | Parcial: requisitos e sequência exata não descritos. |
-| Não consigo entrar na catraca ou preciso cadastrar minha facial | Procurar o Apoio ao Aluno no pátio principal, junto às quatro telas, com o RA. | Apoio ao Aluno, pp. 1–2; Entrevista Setor 2, pp. 1–4 | Parcial: falha na catraca após cadastro não tem solução documentada. |
-| Quero pegar, renovar ou consultar um livro | A biblioteca faz empréstimos; o Meu Pérgamo acompanha e permite pedir renovação. Documento com foto e senha da biblioteca são citados. Prazo inicial informado: dez dias. | Biblioteca, pp. 1–3; entrevista original | Parcial: limite e elegibilidade de renovação não detalhados. |
-| Quero reservar uma sala de estudo | Solicitar à biblioteca com pelo menos uma hora de antecedência; uso de duas horas em faixas indicadas no relatório. | Biblioteca, pp. 1–2 | Parcial: meio de agendamento e disponibilidade não informados. |
-| Preciso do “nada consta” | A biblioteca emite o documento. | Biblioteca, pp. 1 e 3 | Parcial: procedimento, escopo da certidão e prazo não informados. |
-| Perdi um objeto | Procurar Achados e Perdidos no 4º andar do CEUMA III; descrever o objeto. Se localizado, informar nome, RA e CPF e assinar a retirada. | Achados e Perdidos, p. 1; esclarecimento do solicitante sobre o campus | Orientação suficiente para uma página. |
-| Preciso de apoio para TCC, atividades complementares ou colação | A Coordenação orienta regras acadêmicas; entregas e requerimentos podem envolver o Portal do Aluno. “Kit Formando” é documentação para emissão do diploma, não pacote de festa. | Coordenação, pp. 2–4; CAA, p. 1 | Parcial: regras variam por curso; faltam instruções completas. |
-| Preciso de regime domiciliar | O relatório da Coordenação cita afastamento de pelo menos sete dias e protocolo pelo Portal do Aluno com atestado; a Coordenação articula atividades e avaliações. | Coordenação, p. 3; CAA, p. 1 | Parcial: critérios formais e prazo de solicitação não detalhados. |
-| Preciso resolver estágio | O Setor de Estágio cuida de seguro, convênio e validação; documentos não devem ser entregues diretamente à Coordenação sem tramitação anterior. | Coordenação, pp. 3–4; planilha, p. 1 | Parcial: fluxo e contato do setor ausentes. |
-| Tenho problema de acesso ao AVA | A Coordenação menciona Suporte de TI ou atendimento da Coordenação, conforme modalidade. | Coordenação, pp. 2–4; planilha, p. 1 | Parcial: canal e passos de suporte ausentes. |
-| Preciso encontrar um setor ou saber onde ocorre um evento | O Apoio ao Aluno faz orientação presencial e encaminha estudantes. | Apoio ao Aluno, pp. 1–2; Entrevista Setor 2, pp. 1–4 | Orientação de triagem, sem resolver o problema específico. |
+| Necessidade do estudante                                        | Orientação sustentada pelas fontes                                                                                                                                              | Fonte                                                                  | Estado                                                                                     |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Preciso de declaração/comprovante de matrícula                  | Começar pelo Portal do Aluno, na área de declarações acadêmicas. O relatório da CAA informa cobrança para declarações acadêmicas, sem distinguir tipos.                         | Coordenação, p. 4; CAA, p. 1                                           | Parcial: caminho exato no portal, preço do comprovante e prazo não informados.             |
+| Preciso retirar, entregar ou receber uma prova                  | Procurar a Central de Atendimento ao Aluno (CAA).                                                                                                                               | CAA, p. 1; Coordenação, p. 1                                           | Parcial: o próprio relatório da Coordenação, p. 4, aponta outro setor para provas antigas. |
+| Quero abrir um requerimento acadêmico ou financeiro             | Vários requerimentos são iniciados pelo Portal do Aluno; a CAA registra e encaminha protocolos que precisam tramitar entre setores.                                             | CAA, pp. 1–2                                                           | Parcial: não há telas, prazos ou documentos para cada requerimento.                        |
+| Quero tratar de matrícula, crachá ou ingresso                   | A Central de Matrícula formaliza vínculos, atende ingressantes, emite/entrega crachás e presta suporte inicial a PROUNI/FIES.                                                   | Central de Matrícula, pp. 1–2; Coordenação, p. 1                       | Parcial: requisitos e sequência exata não descritos.                                       |
+| Não consigo entrar na catraca ou preciso cadastrar minha facial | Procurar o Apoio ao Aluno no pátio principal, junto às quatro telas, com o RA.                                                                                                  | Apoio ao Aluno, pp. 1–2; Entrevista Setor 2, pp. 1–4                   | Parcial: falha na catraca após cadastro não tem solução documentada.                       |
+| Quero pegar, renovar ou consultar um livro                      | A biblioteca faz empréstimos; o Meu Pérgamo acompanha e permite pedir renovação. Documento com foto e senha da biblioteca são citados. Prazo inicial informado: dez dias.       | Biblioteca, pp. 1–3; entrevista original                               | Parcial: limite e elegibilidade de renovação não detalhados.                               |
+| Quero reservar uma sala de estudo                               | Solicitar à biblioteca com pelo menos uma hora de antecedência; uso de duas horas em faixas indicadas no relatório.                                                             | Biblioteca, pp. 1–2                                                    | Parcial: meio de agendamento e disponibilidade não informados.                             |
+| Preciso do “nada consta”                                        | A biblioteca emite o documento.                                                                                                                                                 | Biblioteca, pp. 1 e 3                                                  | Parcial: procedimento, escopo da certidão e prazo não informados.                          |
+| Perdi um objeto                                                 | Procurar Achados e Perdidos no 4º andar do CEUMA III; descrever o objeto. Se localizado, informar nome, RA e CPF e assinar a retirada.                                          | Achados e Perdidos, p. 1; esclarecimento do solicitante sobre o campus | Orientação suficiente para uma página.                                                     |
+| Preciso de apoio para TCC, atividades complementares ou colação | A Coordenação orienta regras acadêmicas; entregas e requerimentos podem envolver o Portal do Aluno. “Kit Formando” é documentação para emissão do diploma, não pacote de festa. | Coordenação, pp. 2–4; CAA, p. 1                                        | Parcial: regras variam por curso; faltam instruções completas.                             |
+| Preciso de regime domiciliar                                    | O relatório da Coordenação cita afastamento de pelo menos sete dias e protocolo pelo Portal do Aluno com atestado; a Coordenação articula atividades e avaliações.              | Coordenação, p. 3; CAA, p. 1                                           | Parcial: critérios formais e prazo de solicitação não detalhados.                          |
+| Preciso resolver estágio                                        | O Setor de Estágio cuida de seguro, convênio e validação; documentos não devem ser entregues diretamente à Coordenação sem tramitação anterior.                                 | Coordenação, pp. 3–4; planilha, p. 1                                   | Parcial: fluxo e contato do setor ausentes.                                                |
+| Tenho problema de acesso ao AVA                                 | A Coordenação menciona Suporte de TI ou atendimento da Coordenação, conforme modalidade.                                                                                        | Coordenação, pp. 2–4; planilha, p. 1                                   | Parcial: canal e passos de suporte ausentes.                                               |
+| Preciso encontrar um setor ou saber onde ocorre um evento       | O Apoio ao Aluno faz orientação presencial e encaminha estudantes.                                                                                                              | Apoio ao Aluno, pp. 1–2; Entrevista Setor 2, pp. 1–4                   | Orientação de triagem, sem resolver o problema específico.                                 |
 
 ## Organização recomendada para o conteúdo
 
@@ -37,19 +37,19 @@ Os dados devem distinguir três níveis: **passo confirmado no acervo**, **encam
 
 ## Localizações informadas
 
-| Setor | O que a fonte permite afirmar | Fonte |
-| --- | --- | --- |
-| Achados e Perdidos | 4º andar do prédio CEUMA III, no campus Renascença conforme esclarecimento do solicitante. | Guia de Achados e Perdidos, p. 1; esclarecimento do solicitante. |
-| Central de Atendimento ao Aluno | Ao lado da Central de Matrícula, em frente à escadaria próxima da rampa principal. A planilha a lista no térreo. | CAA, p. 1; planilha, p. 3. |
-| Central de Matrícula | Perto da Praça da Gratidão, imediatamente ao lado da CAA. A planilha a lista no térreo. | Central de Matrícula, p. 1; planilha, p. 3. |
-| Apoio ao Aluno | Pátio principal, próximo às quatro telas de TV. | Entrevista Setor 2, p. 4; Apoio ao Aluno, p. 1. |
-| Biblioteca | Ao lado da entrada da quadra, descendo as escadas junto ao Café CB. A planilha a lista no subsolo. | Biblioteca, p. 2; planilha, p. 3. |
-| NADD | 1º andar na planilha; prédio não identificado. | Planilha, p. 1. |
-| Setor de Estágio | 1º andar na planilha; prédio não identificado. | Planilha, p. 1. |
-| Suporte de TI | 1º andar na planilha, descrito como Help Desk; prédio não identificado. | Planilha, p. 1. |
-| Coordenações de curso | 1º andar na planilha, com indicações de lado do corredor por grupos de cursos; prédio não identificado. | Planilha, p. 1. |
-| Secretaria Acadêmica de Graduação | Subsolo na planilha; prédio não identificado. | Planilha, p. 3. |
-| Pronto Atendimento | Nenhuma localização operacional foi registrada. | Relatório de entrevista do Pronto Atendimento, DOCX. |
+| Setor                             | O que a fonte permite afirmar                                                                                    | Fonte                                                            |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Achados e Perdidos                | 4º andar do prédio CEUMA III, no campus Renascença conforme esclarecimento do solicitante.                       | Guia de Achados e Perdidos, p. 1; esclarecimento do solicitante. |
+| Central de Atendimento ao Aluno   | Ao lado da Central de Matrícula, em frente à escadaria próxima da rampa principal. A planilha a lista no térreo. | CAA, p. 1; planilha, p. 3.                                       |
+| Central de Matrícula              | Perto da Praça da Gratidão, imediatamente ao lado da CAA. A planilha a lista no térreo.                          | Central de Matrícula, p. 1; planilha, p. 3.                      |
+| Apoio ao Aluno                    | Pátio principal, próximo às quatro telas de TV.                                                                  | Entrevista Setor 2, p. 4; Apoio ao Aluno, p. 1.                  |
+| Biblioteca                        | Ao lado da entrada da quadra, descendo as escadas junto ao Café CB. A planilha a lista no subsolo.               | Biblioteca, p. 2; planilha, p. 3.                                |
+| NADD                              | 1º andar na planilha; prédio não identificado.                                                                   | Planilha, p. 1.                                                  |
+| Setor de Estágio                  | 1º andar na planilha; prédio não identificado.                                                                   | Planilha, p. 1.                                                  |
+| Suporte de TI                     | 1º andar na planilha, descrito como Help Desk; prédio não identificado.                                          | Planilha, p. 1.                                                  |
+| Coordenações de curso             | 1º andar na planilha, com indicações de lado do corredor por grupos de cursos; prédio não identificado.          | Planilha, p. 1.                                                  |
+| Secretaria Acadêmica de Graduação | Subsolo na planilha; prédio não identificado.                                                                    | Planilha, p. 3.                                                  |
+| Pronto Atendimento                | Nenhuma localização operacional foi registrada.                                                                  | Relatório de entrevista do Pronto Atendimento, DOCX.             |
 
 Não há base para atribuir número de prédio aos setores que aparecem apenas com andar ou ponto de referência. A planilha é uma fotografia de listagem e não fornece rotas de acesso.
 
@@ -69,14 +69,14 @@ Não há base para atribuir número de prédio aos setores que aparecem apenas c
 
 ## Inventário das fontes
 
-| Fonte | Conteúdo útil |
-| --- | --- |
-| `Central de atendimento Ceuma.pdf` | CAA, portal, requerimentos, canais, horários e tabela de valores. |
-| `Central de Matrícula-atualizado.pdf` | Matrícula, PROUNI/FIES, crachás, contatos, horário e restrição após dia 15. |
-| `Coordenação de Curso__Equipe_M25.pdf` | Triagem acadêmica, demandas de calouros/formandos, estágio, regime domiciliar, AVA e conflitos de encaminhamento. |
-| `Entrevista - Setor-2.pdf` e `Relatorioentrevistaapoioaoaluno.pdf` | Apoio ao Aluno, cadastro facial, RA, localização e atendimento presencial. |
-| `Relatorio_entrevista_biblioteca.pdf` e `entrevista biblioteca.docx` | Biblioteca, senha, empréstimo, renovação, sala, ebooks e nada consta. |
-| `guia_achados_e_perdidos_ceuma_atualizado.pdf` | Recuperação de objetos no CEUMA III. |
-| `Entrevista_NADD.pdf` e `Relatorio_Reuniao_NADD.pdf` | Falhas do manual atual e necessidade de orientar por serviços. |
-| `Relatorio_Entrevista_Pronto_Atendimento.docx` | Serviços declarados pelo setor e lacunas de atendimento. |
-| `planilhasetoresporandar.pdf` | Lista fotografada de setores e andares do Renascença; lida visualmente. |
+| Fonte                                                                | Conteúdo útil                                                                                                     |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `Central de atendimento Ceuma.pdf`                                   | CAA, portal, requerimentos, canais, horários e tabela de valores.                                                 |
+| `Central de Matrícula-atualizado.pdf`                                | Matrícula, PROUNI/FIES, crachás, contatos, horário e restrição após dia 15.                                       |
+| `Coordenação de Curso__Equipe_M25.pdf`                               | Triagem acadêmica, demandas de calouros/formandos, estágio, regime domiciliar, AVA e conflitos de encaminhamento. |
+| `Entrevista - Setor-2.pdf` e `Relatorioentrevistaapoioaoaluno.pdf`   | Apoio ao Aluno, cadastro facial, RA, localização e atendimento presencial.                                        |
+| `Relatorio_entrevista_biblioteca.pdf` e `entrevista biblioteca.docx` | Biblioteca, senha, empréstimo, renovação, sala, ebooks e nada consta.                                             |
+| `guia_achados_e_perdidos_ceuma_atualizado.pdf`                       | Recuperação de objetos no CEUMA III.                                                                              |
+| `Entrevista_NADD.pdf` e `Relatorio_Reuniao_NADD.pdf`                 | Falhas do manual atual e necessidade de orientar por serviços.                                                    |
+| `Relatorio_Entrevista_Pronto_Atendimento.docx`                       | Serviços declarados pelo setor e lacunas de atendimento.                                                          |
+| `planilhasetoresporandar.pdf`                                        | Lista fotografada de setores e andares do Renascença; lida visualmente.                                           |
